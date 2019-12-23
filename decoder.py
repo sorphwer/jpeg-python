@@ -156,6 +156,7 @@ def main():
     args = parser.parse_args()
 
     dc, ac, tables, blocks_count = read_image_file(args.input)
+    #dc, ac, tables, blocks_count = read_image_file(FILE_PATH)
 
     # assuming that the block is a 8x8 square
     block_side = 8
